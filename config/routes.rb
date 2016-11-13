@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-root 'application#hello'
+  get 'welcome/index'
+
+root 'welcome#index'
 end
